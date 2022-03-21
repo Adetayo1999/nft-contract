@@ -56,6 +56,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "whitelistAddress",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -86,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/whitelist.sol": {
-			"keccak256": "0x7e905549f6faaae42b9036e9f07d4b3f52409b0fb503ced644ba44f8c024b989",
+			"keccak256": "0xceed4e8de21302bca4235e9be47282c7843e321ab789052cb511fa6428e42498",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73d6cc83eb75dd58ab1ba67809b60d3e5ace26a73b2d3a6502790c4cece8d670",
-				"dweb:/ipfs/QmXKo1LqLghRPqe35nf2MzR2HMpLNF1PQMigUBQEoAUMc4"
+				"bzz-raw://7b1e84a269b4a7e2328e1ed05c50bae8480916344feef96cd36437026f60bb7e",
+				"dweb:/ipfs/QmYZB7hvLYDDxTEgLoZExF1Wf2RuKvQnDTUX2VU5k8WAQt"
 			]
 		}
 	},

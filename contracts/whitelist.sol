@@ -5,7 +5,7 @@ contract Whitelist {
     event whitelistLog(address, string);
     uint maxWhitelistAddress = 3;
     uint public currentlyWhitelisted;
-    mapping(address => bool) whitelistAddress;
+    mapping(address => bool) public  whitelistAddress;
 
  
  function addToWhitelist() public {
@@ -19,7 +19,4 @@ contract Whitelist {
  function getAddressStatus() public view returns(bool){
    return whitelistAddress[msg.sender];
  }
-
-  
-
 }

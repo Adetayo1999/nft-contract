@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "whitelistAddress",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Iwhitelist.sol": "Iwhitelist"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Iwhitelist.sol": {
+			"keccak256": "0x5d38ca887c80e284826f9a09026939931cf379ee02b259b9d4ee030537363393",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58ab475b0b347ac981b418bfe2e47f9505d560c8c7905d30def56d6fee8bc1bf",
+				"dweb:/ipfs/QmVoAfYcTMDR7LtYJgjJSWek5R7be7qYnYBcKQKmA7nttU"
+			]
+		}
+	},
+	"version": 1
+}
