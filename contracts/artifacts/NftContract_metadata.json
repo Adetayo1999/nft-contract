@@ -377,6 +377,49 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "tokenByIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "tokenOfOwnerByIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "tokenId",
 						"type": "uint256"
 					}
@@ -387,6 +430,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -495,8 +551,17 @@
 				"symbol()": {
 					"details": "See {IERC721Metadata-symbol}."
 				},
+				"tokenByIndex(uint256)": {
+					"details": "See {IERC721Enumerable-tokenByIndex}."
+				},
+				"tokenOfOwnerByIndex(address,uint256)": {
+					"details": "See {IERC721Enumerable-tokenOfOwnerByIndex}."
+				},
 				"tokenURI(uint256)": {
 					"details": "See {IERC721Metadata-tokenURI}."
+				},
+				"totalSupply()": {
+					"details": "See {IERC721Enumerable-totalSupply}."
 				},
 				"transferFrom(address,address,uint256)": {
 					"details": "See {IERC721-transferFrom}."
@@ -538,11 +603,11 @@
 			]
 		},
 		"contracts/nftcollection.sol": {
-			"keccak256": "0xcf5934855997baddee5fa0ac81fdb17ff1fd3c54f63757f4d11b0a99f142a540",
+			"keccak256": "0x60a2e31ed688d542d0b3dd9b4ecdde10904795c35c6b370ee2ce8e17ccdf9218",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d9d5d0e9faa34ca6da43698f896265985958f57b33a71e4fb632fe0b63b4c5a",
-				"dweb:/ipfs/QmWTc2VdVircSfSJaCnFqaYhaykP2Lp7ZkmUj2qUS6WqZH"
+				"bzz-raw://c7f843f02f1e496543f3a5027dae5e7040d19a82019fe4f205b8661383f7183b",
+				"dweb:/ipfs/Qmc69z6Pw2jgPdMhQ6FMXJoGWDNpzDME4qmSJtHNX2F6gZ"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
@@ -575,6 +640,22 @@
 			"urls": [
 				"bzz-raw://0280faa8e071ed4648d8538354452be776b7e5ba5b965d4cf9b4d3f6509c920c",
 				"dweb:/ipfs/QmT9qNNpCH6NLMheAwxRHinRvuQZvLdg3TsQmCnk1aMVaq"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol": {
+			"keccak256": "0x0a79511df8151b10b0a0004d6a76ad956582d32824af4c0f4886bdbdfe5746e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afbedcf17f31db719e6fdc56caa8f458799c5fa2eb94cb1e94ef18f89af85768",
+				"dweb:/ipfs/QmVmqRdBfbgYThpZSoAJ5o9mnAMjx8mCHHjv3Rh8cQAAg3"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
+			"keccak256": "0xd1556954440b31c97a142c6ba07d5cade45f96fafd52091d33a14ebe365aecbf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26fef835622b46a5ba08b3ef6b46a22e94b5f285d0f0fb66b703bd30217d2c34",
+				"dweb:/ipfs/QmZ548qdwfL1qF7aXz3xh1GCdTiST81kGGuKRqVUfYmPZR"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
